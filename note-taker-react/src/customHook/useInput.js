@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 
 const useInput = (initialValue = '') => {
     const[value, setValue] = useState(initialValue);
@@ -9,7 +9,7 @@ const useInput = (initialValue = '') => {
 
     const bind = {
         value,
-        onChange = (e) => {
+        onChange: (e) => {
             setValue(e.target.value);
         }
     }

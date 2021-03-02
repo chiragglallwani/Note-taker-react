@@ -16,3 +16,18 @@ code {
 .brand-logo {
   margin-left: 2.5%;
 }
+
+form {
+  padding: 20px;
+  margin: 60px 20px 0px;
+}
+
+.notelist{
+  margin-top: 20px;
+}
+
+.note{
+  padding:10px;
+  margin-bottom: 5%;
+
+}
